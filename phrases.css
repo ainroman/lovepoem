@@ -4,7 +4,6 @@ body {
 
 main {
     grid-template-columns: repeat(4, 2fr);
-    grid-template-rows: 15rem;
     margin-top: 3rem;
     row-gap: 1rem;
 }
@@ -40,37 +39,16 @@ li {
     grid-column: 2;
 }
 
-#arab {
-    grid-row: 2;
-    grid-column: 1;
-    margin-top: 4rem;
-}
-
-#hind {
-    grid-column: 4;
-    margin-top: 5rem;
-}
-
-#sakha {
-    grid-row: 2;
-    grid-column: 3;
-    margin-top: 1rem;
-}
-
-#kor {
-    grid-row: 2;
-    grid-column: 2;
-    margin-top: 18rem;
-}
-
-#span {
-    grid-column: 1;
-    grid-row: 2;
-    margin-top: 21rem;
-}
-
 @media only screen and (max-width:800px){
     main {
         grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+    ul {
+        font-size: 12px;
     }
 }
