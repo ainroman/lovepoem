@@ -1,0 +1,76 @@
+body {
+    display: block;
+}
+
+main {
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: 15rem;
+    margin-top: 3rem;
+    row-gap: 1rem;
+}
+
+h2 {
+    font-weight: 400;
+
+}
+
+strong {
+    letter-spacing: 0.1rem;
+    font-style: oblique;
+}
+
+strong:hover {
+    color: red;
+}
+
+ul {
+    cursor: pointer;
+}
+
+li {
+    line-height: 1.2rem;
+}
+
+.lang {
+    grid-row: span 1;
+}
+
+#woaini {
+    grid-row: 1 / span2;
+    grid-column: 2;
+}
+
+#arab {
+    grid-row: 2;
+    grid-column: 1;
+    margin-top: 4rem;
+}
+
+#hind {
+    grid-column: 4;
+    margin-top: 5rem;
+}
+
+#sakha {
+    grid-row: 2;
+    grid-column: 3;
+    margin-top: 1rem;
+}
+
+#kor {
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 18rem;
+}
+
+#span {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 21rem;
+}
+
+@media only screen and (max-width:800px){
+    main {
+        grid-template-columns: repeat(2,1fr);
+    }
+}

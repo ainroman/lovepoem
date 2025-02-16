@@ -1,0 +1,86 @@
+.atkinson-hyperlegible-mono-<uniquifier> {
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+  
+.doto-<uniquifier> {
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
+}
+
+.anonymous-pro-regular {
+    font-family: "Anonymous Pro", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.anonymous-pro-bold {
+    font-family: "Anonymous Pro", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.anonymous-pro-regular-italic {
+    font-family: "Anonymous Pro", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.anonymous-pro-bold-italic {
+    font-family: "Anonymous Pro", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+
+body{
+    background-color: #FEFEFD;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    padding: 1em;
+}
+
+main {
+}
+
+h1 {
+    font-family: "Doto", serif;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 200;
+    width: 50%;
+    font-size: 16px;
+    margin-top: 2rem;
+}
+
+footer {
+    margin-top: 22rem;
+}
+
+footer a{
+    font-weight: 100;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+@media only screen and (max-width: 800px) {
+    footer {
+        margin-top: 12rem;
+    }
+}
+
+h1:hover span{
+    color: red;
+}

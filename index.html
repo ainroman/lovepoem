@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    <div id="heart"></div>
+    <script src="script.js"></script>
+    <main id="main">
+        <div class="floating">
+            <h1>Discover <span>love</span> through language twists</h1>
+            <h3>Hover around the screen to find your poem!<br>Click to read</h3> 
+        </div>
+        <p class="line Russian" onclick="document.getElementById('pushkinFull').style.display='grid'">Я помню чудное мгновенье</p>
+        <p class="line Japanese" onclick="document.getElementById('flavor').style.display='grid'">最後のキスはタバコの flavor がした</p>
+        <p class="line Korean" onclick="document.getElementById('hangyul').style.display='grid'">자세히 보아야 예쁘다 </p>
+        <p class="line" onclick="document.getElementById('urdu').style.display='grid'">ranjish hi sahi dil hi dukhane ke liye aa</p>
+        <p class="line Chinese" onclick="document.getElementById('shangFull').style.display='grid'" id="shang">两人对酌山花开</p>
+        <p class="line" onclick="document.getElementById('yourOwn').style.display='grid'">WOO try your own!!</p>
+        <p class="line" onclick="document.getElementById('shake').style.display='grid'">shall I compare thee to a summer’s day?</p>
+        <p class="line" onclick="document.getElementById('jour').style.display='grid'">le jour pousse la nuit</p> 
+        <p class="line" onclick="document.getElementById('himmel').style.display='grid'">der du von dem Himmel bist,</p>
+
+        <p class="line Russian" onclick="document.getElementById('pushkinFull').style.display='grid'">Я помню чудное мгновенье</p>
+        <p class="line Japanese" onclick="document.getElementById('flavor').style.display='grid'">最後のキスはタバコの flavor がした</p>
+        <p class="line Korean" onclick="document.getElementById('hangyul').style.display='grid'">자세히 보아야 예쁘다 </p>
+        <p class="line" onclick="document.getElementById('urdu').style.display='grid'">ranjish hi sahi dil hi dukhane ke liye aa</p>
+        <p class="line Chinese" onclick="document.getElementById('shangFull').style.display='grid'" id="shang">两人对酌山花开</p>
+        <p class="line" onclick="document.getElementById('yourOwn').style.display='grid'">WOO try your own!!</p>
+        <p class="line" onclick="document.getElementById('shake').style.display='grid'">shall I compare thee to a summer’s day?</p>
+        <p class="line" onclick="document.getElementById('jour').style.display='grid'">le jour pousse la nuit</p> 
+        <p class="line" onclick="document.getElementById('himmel').style.display='grid'">der du von dem Himmel bist,</p>
+   
+        <p class="line Russian" onclick="document.getElementById('pushkinFull').style.display='grid'">Я помню чудное мгновенье</p>
+        <p class="line Japanese" onclick="document.getElementById('flavor').style.display='grid'">最後のキスはタバコの flavor がした</p>
+        <p class="line Korean" onclick="document.getElementById('hangyul').style.display='grid'">자세히 보아야 예쁘다 </p>
+        <p class="line" onclick="document.getElementById('urdu').style.display='grid'">ranjish hi sahi dil hi dukhane ke liye aa</p>
+        <p class="line Chinese" onclick="document.getElementById('shangFull').style.display='grid'" id="shang">两人对酌山花开</p>
+        <p class="line" onclick="document.getElementById('yourOwn').style.display='grid'">WOO try your own!!</p>
+        <p class="line" onclick="document.getElementById('shake').style.display='grid'">shall I compare thee to a summer’s day?</p>
+        <p class="line" onclick="document.getElementById('jour').style.display='grid'">le jour pousse la nuit</p> 
+        <p class="line" onclick="document.getElementById('himmel').style.display='grid'">der du von dem Himmel bist,</p>
+
+        <div class="info">
+            <h3><a href="your.html">About</a></h3>
+            <h3><a href="phrases.html">Dictionary</a></h3>
+        </div>
+    </main>
+
+    <card class="card" style="display: none;" id="shangFull">
+        <h1>Just The Two of Us</h1>
+        <p class="orig" class="Chinese">
+            两人对酌山花开 <br>
+            一杯一杯复一杯 <br>
+            我醉欲眠卿且去<br>
+            明朝有意抱琴来<br>
+        </p>
+        <p class="transl" title="translation">
+            The two of us, drinking together in the mountains while flowers blossom beside us,
+            <br>Cup after cup, then another,
+            <br>Now that I am drunk and drowsy time to go!
+            <br>Tomorrow, if you come, this time, bring your lute!
+        </p>
+
+        <p class="author">
+            <em>Li Bai, Tang Dynasty</em><br>
+            Originally in Chinese
+        </p>
+    </card>
+
+    <card class="card" style="display: none;" id="pushkinFull">
+        <h1>For (Name Undisclosed)</h1>
+        <p class="orig Russian">    
+            Я помню чудное мгновенье: <br>
+            Передо мной явилась ты, <br>
+            Как мимолетное виденье,<br>
+            Как гений чистой красоты.<br>
+            В томленьях грусти безнадежной,<br>
+            В тревогах шумной суеты,<br>
+            Звучал мне долго голос нежный<br>
+            И снились милые черты.<br>
+        </p>
+        <p class="transl">
+            I remember a wondrous instant: <br>
+            Before me, you appeared so bright, <br>
+            A fleeting vision, pure and distant, <br>
+            A genius of beauty's light.<br>
+            In hopeless sorrow, deep and hollow, <br>
+            In life's commotion, wild and free, <br>
+            Your tender voice I heard, and followed,<br>
+            Your lovely features came to me.<br>
+        </p>
+        <p class="author">
+            <em>Alexander Pushkin, 1725</em><br>
+            Originally in Russian
+        </p>
+    </card>
+
+    <card class="card" style="display: none;" id="yourOwn">
+        <h1>Write your own poem!</h1>
+        <p class="orig" contenteditable="true">
+            Start writing here in your prefered language
+        </p>
+        <p class="transl" contenteditable="true">
+            Type here your translation if needed!
+        </p>
+        <p class="author" contenteditable="true">
+            Your name, year
+        </p>
+        <button id="send">Finish</button>
+    </card>
+
+    <card class="card" style="display: none;" id="hangyul">
+        <h1>Grass Flower</h1>
+        <p class="orig" class="Korean">
+            자세히 보아야 예쁘다 <br>
+            오래보아야 사랑스럽다<br>
+            너도 그렇다<br>
+        </p>
+
+        <p class="transl">
+            It takes a close look to find its beauty.<br>
+            It takes a long look to find its love<br>
+            And so do you to find yours.<br>
+        </p>
+        <p class="author">
+            <em>Na Tae-Joo</em>
+            <br> Originally in Korean
+        </p>
+    </card>
+
+    <card class="card" style="display: none;" id="urdu">
+        <h1>(No Title)</h1>
+        <p class="orig">
+            ranjish hi sahi dil hi dukhane ke liye aa<br>
+            aa phir se mujhe chhod ke jaane ke liye aa<br>
+            kuchh to mere pindar-e-mohabbat ka bharam rakh<br>
+            tu bhi to kabhi mujh ko manane ke liye aa<br>
+            pahle se marasim na sahi phir bhi kabhi to<br>
+            rasm-o-rah-e-duniya hi nibhane ke liye aa
+        </p>
+        <p class="transl">
+            even if u hate me, stay just to give me pain<br>
+            stay even if u have to then leave me again<br>
+            acknowledge the pride of my love,<br>
+            stay and comfort me for a change<br>
+            even though we’re no longer what we used to be,<br>
+            stay for old times’ sake.
+        </p>
+        <p class="author">
+            <em>Ahmad Faraz, (1931-2008)</em><br>
+            Originally in Urdu
+        </p>
+    </card>
+
+    <card class="card" style="display: none;" id="flavor">
+        <h1>First Love</h1>
+        <p class="orig" class="Japanese">
+            最後のキスはタバコの flavor がした <br>
+            ニガくてせつない香り<br>
+            明日の今頃には<br>
+            あなたはどこにいるんだろう<br>
+            誰を思ってるんだろう<br>
+            You are always gonna be my love<br>
+            いつか誰かとまた恋に落ちても<br>
+            I'll remember to love<br>
+            You taught me how<br>
+            You are always gonna be the one<br>
+            今はまだ悲しい love song<br>
+            新しい歌 歌えるまで<br>
+            立ち止まる時間が<br>
+            動き出そうとしてる<br>
+            忘れたくないことばかり<br>
+            明日の今頃には<br>
+            私はきっと泣いている<br>
+            あなたを思ってるんだろう yeah-yeah-yeah<br>
+            いつもあなただけの場所があるから
+        </p>
+        <p class="transl">
+            The last kiss had the flavor of cigarettes<br>
+            A bitter and sad scent<br>
+            By this time tomorrow<br>
+            where are you<br>
+            Who are you thinking of?<br>
+            You are always gonna be my love<br>
+            Even if I fall in love with someone again someday<br>
+            I'll remember to love<br>
+            You taught me how<br>
+            You are always gonna be the one<br>
+            It's still a sad love song<br>
+            Until I can sing a new song<br>
+            time to stop trying to move<br>
+            All the things I don't want to forget<br>
+            By this time tomorrow<br>
+            I'm probably crying<br>
+            I guess I'm thinking of you yeah-yeah-yeah<br>
+            You will always be inside my heart because there's always a place just for you
+        </p>
+        <p class="author">
+            <em>Hikaru Utada, 1999</em> 
+            <br>Originally a song in Japanese
+        </p>
+    </card>
+    
+    <card class="card" style="display: none;" id="jour">
+        <h1>To Cupidon</h1>
+        <p class="orig">
+            Le jour pousse la nuit, <br>
+            Et la nuit sombre<br>
+            Pousse le jour qui luit<br>
+            D'une obscure ombre.<br>
+            <br>
+            L'Autonne suit l'Esté,<br>
+            Et l'aspre rage<br>
+            Des vents n'a point esté<br>
+            Apres l'orage.<br>
+            <br>
+            Mais la fièvre d'amours<br>
+            Qui me tourmente,<br>
+            Demeure en moy tousjours,<br>
+            Et ne s'alente.<br>
+            <br>
+            Ce n'estoit pas moy, Dieu,<br>
+            Qu'il falloit poindre,<br>
+            Ta fleche en autre lieu<br>
+            Se devoit joindre.<br>
+            <br>
+            Poursuy les paresseux<br>
+            Et les amuse,<br>
+            Mais non pas moy, ne ceux<br>
+            Qu'aime la Muse.
+        </p>
+        <p class="transl">
+            Day pushes night, <br>
+            and dark night<br>
+            pushes gleaming day<br>
+            with dark shades.<br>
+            <br>
+            Autumn follows Summer<br>
+            and the winds<br>
+            no longer rage<br>
+            after the storm.<br>
+            <br>
+            But the love fever<br>
+            that torments me<br>
+            burns in me<br>
+            forever unabated. <br>
+            <br>
+            I'm not the one <br>
+            you should have aimed at, god.<br>
+            Your arrow should have<br>
+            had another target.<br>
+            <br>
+            Go after the lazy<br>
+            and amuse them,<br>
+            not me or those<br>
+            who love the Muse.
+        </p>
+        <p class="author">
+            <em>Pierre de Ronsard, 16th century</em>
+            <br>Originally in French
+        </p>
+    </card>
+
+    <card class="card" style="display: none;" id="shake">
+        <h1>Sonnet 18</h1>
+        <p class="orig">Shall I compare thee to a summer’s day?<br>
+            Thou art more lovely and more temperate:<br>
+            Rough winds do shake the darling buds of May,<br>
+            And summer’s lease hath all too short a date;<br>
+            Sometime too hot the eye of heaven shines,<br>
+            And often is his gold complexion dimm'd;<br>
+            And every fair from fair sometime declines,<br>
+            By chance or nature’s changing course untrimm'd;<br>
+            But thy eternal summer shall not fade,<br>
+            Nor lose possession of that fair thou ow’st;<br>
+            Nor shall death brag thou wander’st in his shade,<br>
+            When in eternal lines to time thou grow’st:<br>
+               So long as men can breathe or eyes can see,<br>
+               So long lives this, and this gives life to thee.
+        </p>
+        <p class="author">
+            <em>William Shakespeare, 1609</em><br>
+            English poem
+        </p>
+    </card>
+
+    <card class="card" style="display: none;" id="himmel">
+        <h1>Wanderer's Nightsong</h1>
+        <p class="orig">
+            Der du von dem Himmel bist,<br>
+            Alles Leid und Schmerzen stillest,<br>
+            Den, der doppelt elend ist,<br>
+            Doppelt mit Erquickung füllest,<br>
+            Ach, ich bin des Treibens müde!<br>
+            Was soll all der Schmerz und Lust?<br>
+            Süsser Friede!<br>
+            Komm, ach komm in meine Brust!
+        </p>
+        <p class="transl">
+            You who come from heaven,<br>
+            Soothing all pain and sorrow,<br>
+            Filling the doubly wretched<br>
+            Doubly with delight,<br>
+            Ah, I am weary of this restlessness!<br>
+            What use is all this pain and joy?<br>
+            Sweet peace!<br>
+            Come, ah come into my breast!
+        </p>
+        <p class="author">
+            <em>Johann Wolfgang von Goethe, 1776</em><br>
+            Originally in German
+        </p>
+    </card>
+
+   
+    </body>
+</html>
