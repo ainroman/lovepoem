@@ -264,6 +264,7 @@ img {
     }
     h1{ 
         font-size: 22px;
+        white-space: normal;
     }
     h3 {
         font-size: 14px;
@@ -272,6 +273,10 @@ img {
     .card {
         padding: 5%;
         column-gap: 2%;
+    }
+
+    .card h1 {
+        white-space: normal;
     }
     .floating {
         grid-column: 1 / span 2;
@@ -283,6 +288,7 @@ img {
         grid-column: 1 / span 2;
     }
 }
+
 
 #flavor {
     position: absolute;
