@@ -273,6 +273,11 @@ img {
     .card {
         padding: 5%;
         column-gap: 2%;
+        position: absolute;
+    }
+
+    .author {
+        margin-bottom: 50px;
     }
 
     .card h1 {
