@@ -23,7 +23,8 @@ strong:hover {
 }
 
 ul {
-    cursor: pointer;
+    cursor: default;
+    margin-left: -1.7rem;
 }
 
 li {
@@ -37,6 +38,15 @@ li {
 #woaini {
     grid-row: 1 / span2;
     grid-column: 2;
+}
+
+.Chinese {
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+}
+
+.lang {
+
 }
 
 @media only screen and (max-width:800px){

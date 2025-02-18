@@ -367,3 +367,32 @@ img {
 #urdu .orig {
     width: 80%;
 }
+
+.Chinese {
+    font-family: "Noto Serif SC", serif;
+    font-weight: 400;
+}
+
+.Japanese {
+    font-family: "Noto Serif SC", serif;
+    font-weight: 400;
+}
+
+.noto-serif-sc-<uniquifier> {
+    font-family: "Noto Serif SC", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+
+.noto-serif-kr-<uniquifier> {
+    font-family: "Noto Serif KR", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  .Korean {
+    font-family: "Noto Serif KR", serif;
+  }
