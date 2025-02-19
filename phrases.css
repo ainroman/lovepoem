@@ -62,3 +62,7 @@ li {
         font-size: 12px;
     }
 }
+
+#heart {
+    z-index: 1000;
+}
